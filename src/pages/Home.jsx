@@ -21,7 +21,7 @@ import { motion } from "framer-motion";
 import { homePage } from "../../images";
 
 const items = [
-  <div className="h-screen w-full font-seventh">
+  <div className="h-screen max-w-full w-full font-seventh">
     <div className="absolute top-0 left-0 w-full h-full overlay bg-black/30"></div>
     <img src={simplicity} className="w-full h-screen object-cover" alt="" />
     <motion.div
@@ -30,7 +30,7 @@ const items = [
       transition={{ duration: 1.2 }}
       className="absolute lg:bottom-28 lg:right-72 lg:translate-y-16 xl:translate-x-40 lg:translate-x-24 xl:left-1/2 lg:left-0  lg:top-2/3 top-1/2  left-0 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center flex-col text-white text-center w-full"
     >
-      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[2rem] pl-[22rem] 2xl:pl-[22rem] pt-8 text-center w-full md:block hidden">
+      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[2rem] lg:pl-[30rem] xl:pl-[10rem] pl-[22rem] 2xl:pl-[22rem] pt-8 text-center w-full md:block hidden">
         SIMPLICITY <span className="font-eighth">With</span> NEUTRALS
       </h1>
       <h1 className="text-center text-2xl block md:hidden">
@@ -39,7 +39,7 @@ const items = [
     </motion.div>
   </div>,
 
-  <div className="h-screen w-full font-seventh">
+  <div className="h-screen max-w-full w-full font-seventh">
     <div className="absolute top-0 left-0 w-full h-full overlay bg-black/30"></div>
     <img src={ffe} className="w-full h-screen object-cover" alt="" />
     <motion.div
@@ -48,14 +48,14 @@ const items = [
       transition={{ duration: 1.2 }}
       className="absolute lg:bottom-28 lg:right-72 lg:translate-y-16 xl:translate-x-40 lg:translate-x-24 xl:left-1/2 lg:left-0  lg:top-2/3 top-1/2  left-0 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center flex-col text-white text-center w-full"
     >
-      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[4rem] lg:pl-[4rem] pl-[29rem] 2xl:pl-[29rem] pt-8 text-center w-full md:block hidden">
+      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[2rem] lg:pl-[40rem] xl:pl-[18rem] pl-[29rem] 2xl:pl-[29rem] pt-8 text-center w-full md:block hidden">
         FF&E SERVICES
       </h1>
       <h1 className="text-center text-2xl block md:hidden">FF&E SERVICES</h1>
     </motion.div>
   </div>,
 
-  <div className="h-screen w-full font-seventh">
+  <div className="h-screen max-w-full w-full font-seventh">
     <div className="absolute top-0 left-0 w-full h-full overlay bg-black/30"></div>
     <img src={cesme} className="w-full h-screen object-cover" alt="" />
     <motion.div
@@ -64,21 +64,21 @@ const items = [
       transition={{ duration: 1.2 }}
       className="absolute lg:bottom-28 lg:right-72 lg:translate-y-16 xl:translate-x-40 lg:translate-x-24 xl:left-1/2 lg:left-0  lg:top-2/3 top-1/2  left-0 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center flex-col text-white text-center w-full"
     >
-      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[4rem] pl-[16rem] 2xl:pl-[16rem] pt-8 text-center w-full md:block hidden">
+      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[4rem] lg:pl-[24rem] xl:pl-[4rem] pl-[16rem] 2xl:pl-[16rem] pt-8 text-center w-full md:block hidden">
         CONTEMPORARY PRIVATE VILLA
       </h1>
-      <h2 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[4rem] pl-[16rem] 2xl:pl-[16rem] pt-8 text-center w-full font-eighth mt-1 md:block hidden">
+      <h2 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[4rem] lg:pl-[50rem] xl:pl-[34rem] pl-[16rem] 2xl:pl-[47rem] pt-8 text-center w-full font-eighth mt-1 md:block hidden">
         Çeşme
       </h2>
 
-      <h1 className="text-center text-2xl block md:hidden">
+      <h1 className="text-center max-w-full text-2xl block md:hidden">
         CONTEMPORARY PRIVATE VILLA
       </h1>
       <h2 className="text-center font-eighth text-xl md:hidden block">Çeşme</h2>
     </motion.div>
   </div>,
 
-  <div className="h-screen w-full font-seventh">
+  <div className="h-screen max-w-full w-full font-seventh">
     <div className="absolute top-0 left-0 w-full h-full overlay bg-black/30"></div>
     <img src={concept} className="w-full h-screen object-cover" alt="" />
     <motion.div
@@ -87,7 +87,7 @@ const items = [
       transition={{ duration: 1.2 }}
       className="absolute lg:bottom-28 lg:right-72 lg:translate-y-16 xl:translate-x-40 lg:translate-x-24 xl:left-1/2 lg:left-0  lg:top-2/3 top-1/2  left-0 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center flex-col text-white text-center w-full"
     >
-      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[4rem] pl-[16rem] 2xl:pl-[16rem] pt-8 text-center w-full md:block hidden">
+      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[4rem] lg:pl-[24rem] xl:pl-[4rem] pl-[16rem] 2xl:pl-[16rem] pt-8 text-center w-full md:block hidden">
         CONCEPT & FURNITURE DESIGN
       </h1>
       <h1 className="text-center text-2xl md:hidden block">
@@ -96,7 +96,7 @@ const items = [
     </motion.div>
   </div>,
 
-  <div className="h-screen w-full font-seventh">
+  <div className="h-screen max-w-full w-full font-seventh">
     <div className="absolute top-0 left-0 w-full h-full overlay bg-black/30"></div>
     <img src={functionwith} className="w-full h-screen object-cover" alt="" />
     <motion.div
@@ -105,7 +105,7 @@ const items = [
       transition={{ duration: 1.2 }}
       className="absolute lg:bottom-28 lg:right-72 lg:translate-y-16 xl:translate-x-40 lg:translate-x-24 xl:left-1/2 lg:left-0  lg:top-2/3 top-1/2  left-0 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center flex-col text-white text-center w-full"
     >
-      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[7rem] pl-[21rem] 2xl:pl-[21rem] pt-8 text-center w-full md:block hidden">
+      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[7rem] pl-[21rem] lg:pl-[25rem] xl:pl-[4rem] 2xl:pl-[21rem] pt-8 text-center w-full md:block hidden">
         FUNCTION <span className="font-eighth">With</span> AESTHETIC
       </h1>
       <h1 className="text-center text-2xl md:hidden block">
@@ -114,7 +114,7 @@ const items = [
     </motion.div>
   </div>,
 
-  <div className="h-screen w-full font-seventh">
+  <div className="h-screen max-w-full w-full font-seventh">
     <div className="absolute top-0 left-0 w-full h-full overlay bg-black/30"></div>
     <img src={iconic} className="w-full h-screen object-cover" alt="" />
     <motion.div
@@ -123,10 +123,10 @@ const items = [
       transition={{ duration: 1.2 }}
       className="absolute lg:bottom-28 lg:right-72 lg:translate-y-16 xl:translate-x-40 lg:translate-x-24 xl:left-1/2 lg:left-0  lg:top-2/3 top-1/2  left-0 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center flex-col text-white text-center w-full"
     >
-      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[6rem] pl-[26rem] 2xl:pl-[26rem] pt-8 text-center w-full md:block hidden">
+      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[6rem] pl-[26rem] lg:pl-[36rem] xl:pl-[18rem] 2xl:pl-[26rem] pt-8 text-center w-full md:block hidden">
         ICONIC HOMES
       </h1>
-      <h2 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[6rem] pl-[26rem] 2xl:pl-[26rem] pt-8 text-center w-full font-eighth mt-1 md:block hidden">
+      <h2 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[6rem] pl-[26rem] lg:pl-[36rem] xl:pl-[18rem] 2xl:pl-[26rem] pt-8 text-center w-full font-eighth mt-1 md:block hidden">
         Elevating Experience
       </h2>
 
@@ -137,7 +137,7 @@ const items = [
     </motion.div>
   </div>,
 
-  <div className="h-screen w-full font-seventh">
+  <div className="h-screen max-w-full w-full font-seventh">
     <div className="absolute top-0 left-0 w-full h-full overlay bg-black/30"></div>
     <img src={warmth} className="w-full h-screen object-cover" alt="" />
     <motion.div
@@ -146,10 +146,10 @@ const items = [
       transition={{ duration: 1.2 }}
       className="absolute lg:bottom-28 lg:right-72 lg:translate-y-16 xl:translate-x-40 lg:translate-x-24 xl:left-1/2 lg:left-0  lg:top-2/3 top-1/2  left-0 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center flex-col text-white text-center w-full"
     >
-      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[6rem] pl-96 2xl:pl-96 pt-8 text-center w-full md:block hidden">
+      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[6rem] pl-96 lg:pl-[36rem] xl:pl-[16rem]  2xl:pl-96 pt-8 text-center w-full md:block hidden">
         WARMTH & COMFORT
       </h1>
-      <h2 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[6rem] pl-96 pt-8 2xl:pl-96 text-center w-full font-eighth mt-1 md:block hidden">
+      <h2 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[6rem] pl-96 lg:pl-[36rem] xl:pl-[16rem]  pt-8 2xl:pl-96 text-center w-full font-eighth mt-1 md:block hidden">
         In the Living Areas
       </h2>
 
@@ -160,7 +160,7 @@ const items = [
     </motion.div>
   </div>,
 
-  <div className="h-screen w-full font-seventh">
+  <div className="h-screen max-w-full w-full font-seventh">
     <div className="absolute top-0 left-0 w-full h-full overlay bg-black/30"></div>
     <img src={lobby} className="w-full h-screen object-cover" alt="" />
     <motion.div
@@ -169,7 +169,7 @@ const items = [
       transition={{ duration: 1.2 }}
       className="absolute lg:bottom-28 lg:right-72 lg:translate-y-16 xl:translate-x-40 lg:translate-x-24 xl:left-1/2 lg:left-0  lg:top-2/3 top-1/2  left-0 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center flex-col text-white text-center w-full"
     >
-      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[4rem] pl-[22rem] 2xl:pl-[22rem] pt-8 text-center w-full md:block hidden">
+      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[4rem] pl-[22rem] lg:pl-[30rem] xl:pl-[10rem]  2xl:pl-[22rem] pt-8 text-center w-full md:block hidden">
         WELCOMING LOBBY AREAS
       </h1>
       <h1 className="text-center text-2xl md:hidden block">
@@ -178,7 +178,7 @@ const items = [
     </motion.div>
   </div>,
 
-  <div className="h-screen w-full font-seventh">
+  <div className="h-screen max-w-full w-full font-seventh">
     <div className="absolute top-0 left-0 w-full h-full overlay bg-black/30"></div>
     <img src={dynamic} className="w-full h-screen object-cover" alt="" />
     <motion.div
@@ -187,7 +187,7 @@ const items = [
       transition={{ duration: 1.2 }}
       className="absolute lg:bottom-28 lg:right-72 lg:translate-y-16 xl:translate-x-40 lg:translate-x-24 xl:left-1/2 lg:left-0  lg:top-2/3 top-1/2  left-0 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center flex-col text-white text-center w-full"
     >
-      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[2rem] pl-[14rem] 2xl:pl-[14rem] pt-8 text-center w-full md:block hidden">
+      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[2rem] pl-[14rem] lg:pl-[20rem] xl:pl-[0rem] 2xl:pl-[14rem] pt-8 text-center w-full md:block hidden">
         DYNAMIC OFFICES & WORKSPACES
       </h1>
       <h1 className="text-center text-xl md:hidden block">
@@ -196,7 +196,7 @@ const items = [
     </motion.div>
   </div>,
 
-  <div className="h-screen w-full font-seventh">
+  <div className="h-screen max-w-full w-full font-seventh">
     <div className="absolute top-0 left-0 w-full h-full overlay bg-black/30"></div>
     <img src={elegance} className="w-full h-screen object-cover" alt="" />
     <motion.div
@@ -205,7 +205,7 @@ const items = [
       transition={{ duration: 1.2 }}
       className="absolute lg:bottom-28 lg:right-72 lg:translate-y-16 xl:translate-x-40 lg:translate-x-24 xl:left-1/2 lg:left-0  lg:top-2/3 top-1/2  left-0 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center flex-col text-white text-center w-full"
     >
-      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[6rem] pl-[29rem] 2xl:pl-[29rem] pt-8 text-center w-full md:block hidden">
+      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[6rem] pl-[29rem] lg:pl-[30rem] xl:pl-[16rem] 2xl:pl-[29rem] pt-8 text-center w-full md:block hidden">
         TIMELESS ELEGANCE
       </h1>
       <h1 className="text-center text-2xl md:hidden block">
@@ -214,7 +214,7 @@ const items = [
     </motion.div>
   </div>,
 
-  <div className="h-screen w-full font-seventh">
+  <div className="h-screen max-w-full w-full font-seventh">
     <div className="absolute top-0 left-0 w-full h-full overlay bg-black/30"></div>
     <img src={unique} className="w-full h-screen object-cover" alt="" />
     <motion.div
@@ -223,14 +223,14 @@ const items = [
       transition={{ duration: 1.2 }}
       className="absolute lg:bottom-28 lg:right-72 lg:translate-y-16 xl:translate-x-40 lg:translate-x-24 xl:left-1/2 lg:left-0  lg:top-2/3 top-1/2  left-0 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center flex-col text-white text-center w-full"
     >
-      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[8rem] pl-[29rem] 2xl:pl-[29rem] pt-8 text-center w-full md:block hidden">
+      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[8rem] pl-[29rem] lg:pl-[30rem] xl:pl-[16rem] 2xl:pl-[29rem] pt-8 text-center w-full md:block hidden">
         & UNIQUE TOUCHES
       </h1>
       <h1 className="text-center text-2xl md:hidden block">& UNIQUE TOUCHES</h1>
     </motion.div>
   </div>,
 
-  <div className="h-screen w-full font-seventh">
+  <div className="h-screen max-w-full w-full font-seventh">
     <div className="absolute top-0 left-0 w-full h-full overlay bg-black/30"></div>
     <img src={quiet} className="w-full h-screen object-cover" alt="" />
     <motion.div
@@ -239,10 +239,10 @@ const items = [
       transition={{ duration: 1.2 }}
       className="absolute lg:bottom-28 lg:right-72 lg:translate-y-16 xl:translate-x-40 lg:translate-x-24 xl:left-1/2 lg:left-0  lg:top-2/3 top-1/2  left-0 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center flex-col text-white text-center w-full"
     >
-      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[0rem] pl-96 2xl:pl-96 pt-8 text-center w-full md:block hidden">
+      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[0rem] pl-96 lg:pl-[30rem] xl:pl-[16rem] 2xl:pl-96 pt-8 text-center w-full md:block hidden">
         QUIET LUXURY
       </h1>
-      <h2 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[0rem] pl-96 2xl:pl-96 pt-8 text-center w-full font-eighth mt-1 md:block hidden">
+      <h2 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[0rem] pl-96 lg:pl-[40rem] xl:pl-[28rem] 2xl:pl-96 pt-8 text-center w-full font-eighth mt-1 md:block hidden">
         Style
       </h2>
 
@@ -317,7 +317,7 @@ export default function Home() {
           disableDotsControls
           disableButtonsControls
           autoPlay
-          autoPlayInterval={3000}
+          autoPlayInterval={28000}
           animationDuration={2000}
           animationType="fadeout"
           infinite
