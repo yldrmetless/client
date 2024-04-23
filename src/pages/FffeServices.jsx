@@ -22,7 +22,7 @@ export default function FfeServices() {
         </h1>
       </div>
 
-      <div className="max-w-full w-full mx-auto p-3 flex flex-col justify-center items-center gap-8 py-7 2xl:mt-32">
+      <div className="max-w-full w-full mx-auto p-3 flex flex-col justify-center items-center gap-8 py-7">
         <div className="flex flex-col gap-6">
           <div className="flex flex-wrap gap-4 justify-center items-center gap-x-6">
             <Link
@@ -68,16 +68,16 @@ export default function FfeServices() {
               FF&E SERVICES
             </Link>
           </div>
-          <div className="flex flex-wrap justify-center items-center gap-x-8 lg:gap-y-6 mt-8">
+          <div className="flex flex-wrap justify-center items-center gap-x-8 lg:gap-y-6 mt-8 lg:px-0 px-2">
             {ffeArr.map((post) => (
               <div className="w-full h-[400px] overflow-hidden rounded-sm sm:w-[480px] transition-all block group relative">
-                <Link to={post.link}>
+                <Link>
                   <img
                     src={post.image}
                     alt="post cover"
                     className="lg:h-[320px] h-[270px] w-full z-20 duration-300 transition-all"
                   />
-                  <div className="flex flex-col justify-center gap-2 font-fifth pt-3 absolute bottom-[80px] left-0 opacity-0 group-hover:opacity-100 group-hover:bottom-[80px] w-full h-[120px] bg-gradient-to-t from-black to-black/10  duration-500 px-4 py-3">
+                  <div className="flex flex-col justify-center gap-2 font-fifth pt-3 lg:absolute bottom-[80px] left-0 opacity-0 group-hover:opacity-100 group-hover:bottom-[80px] w-full h-[120px] bg-gradient-to-t from-black to-black/10  duration-500 px-4 py-3">
                     <p className="text-sm font-normal text-gray-100">
                       {post.category}
                     </p>

@@ -32,7 +32,7 @@ export default function About() {
         </h1>
       </div>
 
-      <div className="lg:mt-60 mt-16 mb-16 lg:px-28 px-8 flex justify-center items-center gap-x-12 font-fifth">
+      <div className="lg:mt-8 2xl:mt-60 mt-16 mb-16 lg:px-28 px-8 flex justify-center items-center gap-x-12 font-fifth">
         <motion.div
           initial="hidden"
           variants={fadeInUpAnimation}

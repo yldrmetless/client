@@ -105,7 +105,7 @@ const items = [
       transition={{ duration: 1.2 }}
       className="absolute lg:bottom-28 lg:right-72 lg:translate-y-16 xl:translate-x-40 lg:translate-x-24 xl:left-1/2 lg:left-0  lg:top-2/3 top-1/2  left-0 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center flex-col text-white text-center w-full"
     >
-      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[7rem] pl-[21rem] lg:pl-[25rem] xl:pl-[4rem] 2xl:pl-[21rem] pt-8 text-center w-full md:block hidden">
+      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[7rem] pl-[21rem] lg:pl-[30rem] xl:pl-[4rem] 2xl:pl-[21rem] pt-8 text-center w-full md:block hidden">
         FUNCTION <span className="font-eighth">With</span> AESTHETIC
       </h1>
       <h1 className="text-center text-2xl md:hidden block">
@@ -123,10 +123,10 @@ const items = [
       transition={{ duration: 1.2 }}
       className="absolute lg:bottom-28 lg:right-72 lg:translate-y-16 xl:translate-x-40 lg:translate-x-24 xl:left-1/2 lg:left-0  lg:top-2/3 top-1/2  left-0 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center flex-col text-white text-center w-full"
     >
-      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[6rem] pl-[26rem] lg:pl-[36rem] xl:pl-[18rem] 2xl:pl-[26rem] pt-8 text-center w-full md:block hidden">
+      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[6rem] pl-[26rem] lg:pl-[44rem] xl:pl-[18rem] 2xl:pl-[26rem] pt-8 text-center w-full md:block hidden">
         ICONIC HOMES
       </h1>
-      <h2 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[6rem] pl-[26rem] lg:pl-[36rem] xl:pl-[18rem] 2xl:pl-[26rem] pt-8 text-center w-full font-eighth mt-1 md:block hidden">
+      <h2 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[6rem] pl-[26rem] lg:pl-[44rem] xl:pl-[18rem] 2xl:pl-[26rem] pt-8 text-center w-full font-eighth mt-1 md:block hidden">
         Elevating Experience
       </h2>
 
@@ -205,7 +205,7 @@ const items = [
       transition={{ duration: 1.2 }}
       className="absolute lg:bottom-28 lg:right-72 lg:translate-y-16 xl:translate-x-40 lg:translate-x-24 xl:left-1/2 lg:left-0  lg:top-2/3 top-1/2  left-0 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center flex-col text-white text-center w-full"
     >
-      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[6rem] pl-[29rem] lg:pl-[30rem] xl:pl-[16rem] 2xl:pl-[29rem] pt-8 text-center w-full md:block hidden">
+      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[6rem] pl-[29rem] lg:pl-[34rem] xl:pl-[16rem] 2xl:pl-[29rem] pt-8 text-center w-full md:block hidden">
         TIMELESS ELEGANCE
       </h1>
       <h1 className="text-center text-2xl md:hidden block">
@@ -223,7 +223,7 @@ const items = [
       transition={{ duration: 1.2 }}
       className="absolute lg:bottom-28 lg:right-72 lg:translate-y-16 xl:translate-x-40 lg:translate-x-24 xl:left-1/2 lg:left-0  lg:top-2/3 top-1/2  left-0 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center flex-col text-white text-center w-full"
     >
-      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[8rem] pl-[29rem] lg:pl-[30rem] xl:pl-[16rem] 2xl:pl-[29rem] pt-8 text-center w-full md:block hidden">
+      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[8rem] pl-[29rem] lg:pl-[36rem] xl:pl-[16rem] 2xl:pl-[29rem] pt-8 text-center w-full md:block hidden">
         & UNIQUE TOUCHES
       </h1>
       <h1 className="text-center text-2xl md:hidden block">& UNIQUE TOUCHES</h1>
@@ -239,10 +239,10 @@ const items = [
       transition={{ duration: 1.2 }}
       className="absolute lg:bottom-28 lg:right-72 lg:translate-y-16 xl:translate-x-40 lg:translate-x-24 xl:left-1/2 lg:left-0  lg:top-2/3 top-1/2  left-0 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center flex-col text-white text-center w-full"
     >
-      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[0rem] pl-96 lg:pl-[30rem] xl:pl-[16rem] 2xl:pl-96 pt-8 text-center w-full md:block hidden">
+      <h1 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[0rem] pl-96 lg:pl-[32rem] xl:pl-[16rem] 2xl:pl-96 pt-8 text-center w-full md:block hidden">
         QUIET LUXURY
       </h1>
-      <h2 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[0rem] pl-96 lg:pl-[40rem] xl:pl-[28rem] 2xl:pl-96 pt-8 text-center w-full font-eighth mt-1 md:block hidden">
+      <h2 className="md:text-4xl lg:text-4xl text-3xl font-normal xl:text-left md:pl-[0rem] pl-96 lg:pl-[42rem] xl:pl-[28rem] 2xl:pl-96 pt-8 text-center w-full font-eighth mt-1 md:block hidden">
         Style
       </h2>
 
@@ -317,7 +317,7 @@ export default function Home() {
           disableDotsControls
           disableButtonsControls
           autoPlay
-          autoPlayInterval={28000}
+          autoPlayInterval={3000}
           animationDuration={2000}
           animationType="fadeout"
           infinite
@@ -343,10 +343,7 @@ export default function Home() {
         </Link>
       </motion.div>
 
-      <motion.div
-        initial={{ opacity: 0, scale: 1, y: 200 }}
-        whileInView={{ opacity: 1, scale: 1, y: 0 }}
-        transition={{ duration: 1.2 }}
+      <div
         className="bg-gray-100 mt-36 lg:px-16 2xl:py-0 py-16"
       >
         <h1 className="text-center font-semibold font-fifth text-xl py-4">
@@ -382,7 +379,7 @@ export default function Home() {
                     />
                   </div>
                   <div className="xl:mt-[20.5rem] lg:mt-[20rem] mt-[14rem] relative">
-                    <h1 className="text-lg font-normal">
+                    <h1 className="text-xl font-normal">
                       {post.category}
                     </h1>
                     <h1 className="text-sm">{post.name}</h1>
@@ -392,7 +389,7 @@ export default function Home() {
             </div>
           ))}
         </div>
-      </motion.div>
+      </div>
 
       <motion.div
         initial={{ opacity: 0, scale: 1, y: 250 }}
@@ -406,6 +403,7 @@ export default function Home() {
             src={video}
             autoPlay
             playsInline
+            
             loop
             className="w-full"
           />
@@ -414,6 +412,7 @@ export default function Home() {
           <video
             autoPlay
             playsInline
+            
             className="w-full"
             loop // Videoyu sessize almak için, tarayıcılar otomatik oynatmayı genellikle sessiz videolar için engellemez
             ref={vidRef}
